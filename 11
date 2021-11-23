@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="" href="../CSS/Css_anhVu.css">
+     <title>Pretest 3</title>
+</head>
+
+<body>
+     <header>
+          <img src="Img_anhVu/p3_logo.png" alt="">
+     </header>
+
+     <nav>
+          <div class="link">
+               <a href="">HOME</a>
+               <a href="">ACADEMICS</a>
+               <a href="">RESEARCH</a>
+               <a class="about" href="">About Us</a>
+               <a href=""> E-LIBRARY</a>
+               <a href=""> SIGN IN</a>
+               <a href="">SIGN UP</a>
+          </div>
+     </nav>
+     <div class="main">
+          <div class="collection">
+               <div class="left">
+                    <img src="Img_anhVu/p3_pic.PNG" alt="">
+               </div>
+               <div class="right">
+                    <img src="Img_anhVu/p3_pic2.jpg" alt="">
+                    <img src="Img_anhVu/p3_pic3.jpg" alt="">
+                    <img src="Img_anhVu/p3_pic4.jpg" alt="">
+               </div>
+               <div class="clear"></div>
+          </div>
+     </div>
+     <footer>
+          <p>2019 ABC School. All rights reserved.</p>
+     </footer>
+</body>
+
+</html>
