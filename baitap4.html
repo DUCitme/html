@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRT4.2</title>
+    <style>
+        a{
+            text-decoration: none;
+            padding: 0px 10px;
+            font-weight: bold;
+        }
+        .form{
+            border: 5px 5px 5px 5px black;
+            box-shadow: 2px 2px 2px 2px grey;
+            width: 40%;
+        }
+
+}
+.border{
+    border: 3px 3px 3px 3px black ;
+    box-shadow: 3px 3px 3px 3px grey;
+}
+.submit{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+.reset{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+h2{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+    text-shadow:  rgb(180, 177, 187) 2px 2px 2px;
+    padding-left: 3rem;
+}
+footer{
+    padding-top: 15px;
+    text-align: center;
+}
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px 5px;
+}
+    </style>
+</head>
+<body>
+   
+    <div class="border">
+    <header>
+        <p><img src="img/logo.jpg" alt=""> AMAZING BRIDGES</p>
+    </header>
+    <div class="link">
+        <a href="">HOME</a>
+        <a href="">WORLD BRIDES</a>
+        <a href="">TOP LONGEST</a>
+        <a href="">TOP HIGHEST</a>
+        <a href="">CONTACT</a>
+    </div>
+    <hr>
+    <h2>Contact us</h2>
+    <div class="form">
+        <form action="" id="form-dk">
+            <fieldset>
+    <legend>Your details:</legend>
+    <div class="form-group">
+        <label for="">Name</label>
+        <input type="text" name="name" id="name" placeholder="Nhap ten" required>
+    </div>
+    <div class="form-group">
+        <label for="">Email</label>
+        <input type="email" name="email" id="email" placeholder="Nhap email" required>
+    </div>
+</fieldset>
+</form>
+</div><br>
+    <div class="form">
+        <form action="" id="form-dk">
+            <fieldset>
+            <legend>Your Review:</legend>
+            <div class="form-group">
+            <label for="">How did you hear about us?</label>
+            <select name="hdy" id="hdy">
+                <option value="">Google</option>
+                <option value="">Friend</option>
+                <option value="">Advert and other</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="">Would you visit again?</label>
+            <input type="radio" name="yes" id="yes" checked>Yes
+            <input type="radio" name="no" id="no">No
+            <input type="radio" name="maybe" id="maybe">Maybe
+        </div>
+        <div class="form-group">
+            <label for="">Comment:</label>
+            <textarea name="cmt" id="cmt" cols="30" rows="10" readonly></textarea>
+        </div>
+        <div>
+            <input type="checkbox" name="cb" id="cb">Sign me up for email updates
+        </div>
+            <div class="form-group"><button type="submit" class="submit">Submit review</button>
+                <button type="reset" class="reset">Reset</button>
+            </div>
+    </div>
+</fieldset>
+</form>
+    
+    <footer>Copyright C by team ABC</footer>
+</div>
+</div>
+</div>
+</body>
+<script>
+
+</script>
+</html>
