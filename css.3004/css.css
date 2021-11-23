@@ -30,11 +30,11 @@ a.about {
 
 .left {
      float: left;
-     width: 73.74%;
+     width: 100%;
 }
 .right {
      float: left;
-     width: 24%;
+     width:100%;
 }
 .left img {
      width: 100%;
